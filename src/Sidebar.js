@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { sidebarCssClasses } from './Shared';
 import ClickOutHandler from 'react-onclickout'
 if (typeof window !== 'undefined' && window.Element.prototype) {
-  import 'element-closest'
+  require('element-closest')
 }
 
 const propTypes = {
